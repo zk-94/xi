@@ -1,0 +1,27 @@
+1. 建立git工作环境
+   git init 
+
+2.把文件添加到暂存区
+  git add 文件名 （提交文件到暂存区）
+  git add .  提交工作区所有文件
+
+3.把暂存区的文件提交到分支（本地的代码仓库）
+  git commit -m "第一次提交"     (填写备注信息)； 
+
+4.填写邮箱和用户名
+  git config --global user.email "909366177@qq.com"
+  git config --global user.name "zk-94"
+
+5.再次提交 提交到远程仓库.
+  git commit -m "第一次提交"     (填写备注信息)； 
+
+6.查看提交历史信息
+  git log 
+
+7.将本地代码仓库和远程代码仓库进行关联
+  git remote add origin git@github.com:zk-94/xi.git（远程仓库地址）
+
+8.获取公钥（用于获取可以把代码上传到远程仓库的权限）
+  ssh-keygen -t rsa -C "909366177@qq.com"
+
+9.将C:\Users\Xi\.ssh\id_rsa.pub的公钥
