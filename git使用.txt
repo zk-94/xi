@@ -28,3 +28,5 @@
 
 10.将远程代码仓库分支中的内容pull下来
   git pull origin master
+
+11.git clone 远程仓库地址
