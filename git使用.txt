@@ -1,4 +1,4 @@
-1. 建立git工作环境
+﻿1. 建立git工作环境
    git init 
 
 2.把文件添加到暂存区
@@ -29,4 +29,17 @@
 10.将远程代码仓库分支中的内容pull下来
   git pull origin master
 
-11.git clone 远程仓库地址
+11.git clone 远程仓库地址（可以没有权限）
+
+12. 创建分支
+ git branch 分支名
+
+13切换分支
+  git checkout 分支名
+
+14把小分支整合到master上去
+  先切换到master分支上
+  然后git merge 分支名
+
+15删除分支
+  git branch -d 分支名
